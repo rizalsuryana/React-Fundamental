@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import LanguageSwitcher from "./components/LanguageSwitcher";
+import RepositoriesList from "./components/RepositoriesList";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      language: "all",
+    };
+
+    this.onLanguageChange = this.onLanguageChange.bind(this);
+  }
+
+  onLanguageChange(language) {
+    this.setState(() => {
+      return {
+        language,
+      };
+    });
+  }
+
+  render() {
+    return (
+      <>
+        <LanguageSwitcher
+          language={this.state.language}
+          languageChange={this.onLanguageChange}
+        />
+        <RepositoriesList language={this.state.language} />
+      </>
+    );
+  }
 }
 
 export default App;
