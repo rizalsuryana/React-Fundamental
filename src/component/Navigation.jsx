@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FiHome, FiPlusCircle } from "react-icons/fi";
 
 const Navigation = () => {
     return(
         <nav className="navigation">
             <ul>
                 <li>
-                    <Link to='/'>Home</Link>
+                    <Link to='/'><FiHome/></Link>
 
                     <li>
-                    <Link to='/add'>Add</Link>
+                    <Link to='/add'><FiPlusCircle/></Link>
                     </li>
                 </li>
             </ul>
