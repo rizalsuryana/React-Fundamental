@@ -15,4 +15,20 @@ const LoginPage = ({loginSuccess}) =>{
             loginSuccess(data);
         }
     }
+
+    return (
+        <section className="login-page">
+            <h2>Please login to your acount</h2>
+            <LoginInput login={onLogin}/>
+            <p>Dont have acount? <Link to='/register'>Create Acount</Link>
+            </p>
+        </section>
+    );
 }
+
+LoginPage.propTypes = {
+    loginSuccess : PropTypes.func.isRequired,
+}
+
+
+export default LoginPage;

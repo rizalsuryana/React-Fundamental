@@ -1,5 +1,6 @@
 import ContactItem from "./ContactItem";
 import PropTypes from "prop-types";
+import React from "react";
 
 const ContactList = ({contacts, onDelete}) => {
     return (
