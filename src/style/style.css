@@ -40,6 +40,17 @@
     font-size: 28px;
     color: black;
   }
+
+  .navigation ul li button {
+    background-color: transparent;
+    font-family: 'Inter', sans-serif;
+    border: 0;
+    font-size: 28px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
    
   .contact-item {
     display: flex;
@@ -120,3 +131,34 @@
     border: 2px dashed black;
     border-radius: 4px;
   }
+
+  .login-page h2, .register-page h2 {
+    font-weight: normal;
+  }
+   
+  .login-input, .register-input, .contact-input {
+    margin-top: 16px;
+  }
+   
+  .login-input input, .register-input input, .contact-input input {
+    display: block;
+    padding: 16px;
+    width: 100%;
+    margin: 8px 0;
+    font-size: 24px;
+    background-color: transparent;
+    border: 2px dashed black;
+    border-radius: 8px;
+  }
+   
+  .login-input button, .register-input button, .contact-input button {
+    display: block;
+    width: 100%;
+    padding: 16px;
+    font-size: 24px;
+    background-color: tan;
+    border: 2px dashed black;
+    border-radius: 8px;
+    margin: 16px 0;
+  }
+  
