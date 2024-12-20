@@ -1,6 +1,11 @@
 # Contac App ( LifeCycle )
 
+
+V4
 New :
+- Menambahkan Baha Indonesia dan English ( Implementasi React Context)
+
+----------------------------------------------------------------
 - Menambahkan proteksi
 - Menambahkan Fitur Login
 - Menambahkan fitur register
