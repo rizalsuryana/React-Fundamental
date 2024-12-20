@@ -7,6 +7,8 @@ New :
 - Menambahkan Baha Indonesia dan English ( Implementasi React Context)
 
 ----------------------------------------------------------------
+V3
+---
 - Menambahkan proteksi
 - Menambahkan Fitur Login
 - Menambahkan fitur register
