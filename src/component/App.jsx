@@ -2,8 +2,10 @@ import React from "react";
 import Todo from "./Todo";
 import ToggleLampFunc from "./ToggleLamp";
 import UseEffectFunc from "./UseEffect";
-
+// useEffect latihan
+import AnimalApp from "./AnimalApp";
 import '../styles/style.css';
+
 
 const App = () => {
     return (
@@ -27,6 +29,10 @@ const App = () => {
                 <h2>Latihan useEffect</h2>
             <section>
                 <UseEffectFunc/>
+            </section>
+            <h2>Latihaan Use Effect 2 ; animal</h2>
+            <section>
+                <AnimalApp/>
             </section>
 
         </div>
