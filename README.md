@@ -1,9 +1,15 @@
 # Contac App ( React Context)
 
-
-V4
+V5
 ---
 New :
+-Mengubah HomePage menjadi functional commponent
+
+
+
+----------------------------------------------------------------
+V4
+---
 - Menambahkan Baha Indonesia dan English ( Implementasi React Context)
 
 ----------------------------------------------------------------
